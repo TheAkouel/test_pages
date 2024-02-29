@@ -17,4 +17,4 @@ jobs:
       - name: Attendre le déploiement sur github pages
         run: sleep 60
       - run: npm install
-      - run: npx blc https://jeremydallain.github.io/isfac-ci-cd -v
+      - run: npx blc https://theakouel.github.io/test_pages -v
