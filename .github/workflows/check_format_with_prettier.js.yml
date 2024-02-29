@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-      - run: Install Dependencies
-      - run: npm install
-      - run: Check formatting
-      - run: npx prettier --check .
+      - name: Install Dependencies
+        run: npm install
+      - name: Check formatting
+        run: npx prettier --check .
